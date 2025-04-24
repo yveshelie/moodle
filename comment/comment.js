@@ -104,8 +104,7 @@ M.core_comment = {
                             }
                             for(var i in ids) {
                                 var attributes = {
-                                    color: { to: '#06e' },
-                                    backgroundColor: { to: '#FFE390' }
+                                    backgroundColor: { to: '#FCEFDC' }
                                 };
                                 var anim = new Y.YUI2.util.ColorAnim(ids[i], attributes);
                                 anim.animate();
@@ -116,7 +115,7 @@ M.core_comment = {
                     }, true);
                 } else {
                     var attributes = {
-                        backgroundColor: { from: '#FFE390', to:'#FFFFFF' }
+                        backgroundColor: { from: '#FCEFDC', to:'#FFFFFF' }
                     };
                     var anim = new Y.YUI2.util.ColorAnim('dlg-content-'+cid, attributes);
                     anim.animate();
